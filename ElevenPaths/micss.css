@@ -1,0 +1,237 @@
+/*Hacemos que la cabecera sea de color verde*/
+.numberCircle {
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.content-box {
+text-align: center;
+width: 600px;
+height: 140px;
+border: 1px solid #afcde3;
+}
+.bwWrapper {
+    position:relative;
+    display:block;
+}
+.button-wrap {
+    background: #A9A9A9 linear-gradient(#221C1C,#4B4242,#221C1C) repeat scroll 0% 0% !important;
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ui-title{
+background: #A9A9A9 linear-gradient(#221C1C, #4B4242,#221C1C) repeat scroll 0% 0% !important;
+color: white;
+text-shadow:none;
+}
+.ui-header{
+background: #A9A9A9 linear-gradient(#221C1C,#4B4242,#221C1C) repeat scroll 0% 0% !important;
+color: white;
+text-shadow:none;
+}
+.ui-content{
+background-image: url("images/image.jpg");
+color:white;
+text-shadow:none;
+}
+
+.ui-footer{
+background: #E7DCEE linear-gradient(#221C1C,#4B4242,#221C1C) repeat scroll 0% 0% !important;
+position: fixed;
+bottom: 0;
+width:100%;
+color:white;
+text-shadow:none;
+}
+#textoInicio{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoPerfil{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoPairLatch{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoUnpairLatch{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoR{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoSearch{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoI{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoAdmin{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoGoogleAuth{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoGoogleEnabled{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+#textoAdminGoogleAuthenticator{
+color:white;
+text-shadow:none;
+margin-left:10px;
+}
+
+
+
+
+
+
+
+body {
+ <!-- src: http://subtlepatterns.com/?p=1045 -->
+ background: url('dark_geometric.png');
+}
+ 
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+}header {
+ width: 800px;
+ margin: 40px auto;
+}
+ 
+header h1 {
+ text-align: center;
+ font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+ 
+}
+ 
+header p {
+ font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+ text-align: justify;
+}
+ 
+
+ 
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+/*photobanner
+.first {
+ -webkit-animation: bannermove 10s linear infinite;
+    -moz-animation: bannermove 10s linear infinite;
+     -ms-animation: bannermove 10s linear infinite;
+      -o-animation: bannermove 10s linear infinite;
+         animation: bannermove 10s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+*/
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+ 
+.photobanner img {
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+
+
+
