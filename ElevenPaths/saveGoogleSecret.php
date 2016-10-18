@@ -6,9 +6,9 @@ session_start();
         $value=1;
 
 if ($secret !=''){
-      $dsn='mysql:dbname=TFG;host=127.0.0.1';
-      $DBuser='root';
-      $DBpassword='root';
+      $dsn='mysql:dbname=db;host=127.0.0.1';
+      $DBuser='';
+      $DBpassword='';
       try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
       } catch (PDOException $e) {
