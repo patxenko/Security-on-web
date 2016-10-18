@@ -1,8 +1,8 @@
 <?php
 session_start();
 include_once("APIs/twitterAPI/TwitterOAuth.php");
-define('CONSUMER_KEY', '36pqTjCQvw55sWNYgQOvAUQyo'); // add your app consumer key between single quotes
-define('CONSUMER_SECRET', 'AUpIegOT0Do8ZDQOUTbWvsPOR3rDZGzXiNg74v46kfPztvYigC'); // add your app consumer secret key between single quotes
+define('CONSUMER_KEY', ''); // add your app consumer key between single quotes
+define('CONSUMER_SECRET', ''); // add your app consumer secret key between single quotes
 
 if (isset($_REQUEST['oauth_verifier'], $_REQUEST['oauth_token']) && $_REQUEST['oauth_token'] == $_SESSION['oauth_token']) {
 	$request_token = [];
