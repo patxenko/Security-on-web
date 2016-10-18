@@ -15,9 +15,9 @@ echo ($_COOKIE['User']);
 
 if ($accountId != '') {
       //ADD PAIRING CODE TO DB
-      $dsn='mysql:dbname=TFG;host=127.0.0.1';
-      $DBuser='root';
-      $DBpassword='root';
+      $dsn='mysql:dbname=db;host=127.0.0.1';
+      $DBuser='';
+      $DBpassword='';
       try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
       } catch (PDOException $e) {
