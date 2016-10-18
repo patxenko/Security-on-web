@@ -5,8 +5,8 @@ include_once("APIs/twitterAPI/TwitterOAuth.php");
 
 //SI LA PAGINA ES SIGN IN REQUERIREMOS INICIAR SESION CON TWITTER
 if ($pagina=="signIn") {
-     define('CONSUMER_KEY', '0eNC3DwCWQsUORFzIwzK6KHoY');
-     define('CONSUMER_SECRET', 'nNP9N4xgPr5XHPACfG5AxAknfmu8CiYgIIdjqy334T0DPuLAu0');
+     define('CONSUMER_KEY', '');
+     define('CONSUMER_SECRET', '');
      define('OAUTH_CALLBACK', 'http://localhost/ElevenPaths/twitterLogin.php');
 
      if (!isset($_SESSION['access_token'])) {
@@ -30,8 +30,8 @@ if ($pagina=="signIn") {
 }
 //SI LA PAGINA ES SIGN UP REQUERIREMOS RECOGER LOS VALORES PARA RELLENAR EL FORMULARIO
 if ($pagina=="signUp"){
-    define('CONSUMER_KEY', '36pqTjCQvw55sWNYgQOvAUQyo');
-    define('CONSUMER_SECRET', 'AUpIegOT0Do8ZDQOUTbWvsPOR3rDZGzXiNg74v46kfPztvYigC'); 
+    define('CONSUMER_KEY', '');
+    define('CONSUMER_SECRET', ''); 
     define('OAUTH_CALLBACK', 'http://localhost/ElevenPaths/twitterRegister.php'); 
 
     if (!isset($_SESSION['access_token'])) {
