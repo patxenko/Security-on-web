@@ -288,7 +288,7 @@ function iniciarAdmin(pass){
 
   window.fbAsyncInit = function() {
   FB.init({
-    appId      : '116822865378961',
+    appId      : '',
     cookie     :  false,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
