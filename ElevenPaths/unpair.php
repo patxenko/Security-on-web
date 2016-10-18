@@ -3,9 +3,9 @@
 require_once("latchConfig.php"); //contiene appId y secret y acceso a funciones de la API
 
  //recogemos el latchId del usuario si tiene;
- $dsn='mysql:dbname=TFG;host=127.0.0.1';
- $DBuser='root';
- $DBpassword='root';
+ $dsn='mysql:dbname=dbname;host=127.0.0.1';
+ $DBuser='';
+ $DBpassword='';
  try {
        $dbh=new PDO($dsn,$DBuser,$DBpassword);
  } 
