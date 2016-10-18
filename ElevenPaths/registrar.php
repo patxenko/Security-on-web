@@ -3,7 +3,7 @@
         $nombre=$_POST['nombre'];
         $mail=$_POST['mail'];
         $pass=$_POST['pass'];
-	$conexion =  mysql_connect('127.0.0.1', 'root', 'root');
+	$conexion =  mysql_connect('127.0.0.1', '', '');
         if (!$conexion) {
               die('No pudo conectarse: ' . mysql_error());
         }
@@ -11,7 +11,7 @@
               $resultado='Conectado satisfactoriamente';
         }
 
-        mysql_select_db('TFG') or die('No se pudo seleccionar la base de datos');
+        mysql_select_db('db') or die('No se pudo seleccionar la base de datos');
         mysql_query ("SET NAMES 'utf8'");
         session_start();
         
