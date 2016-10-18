@@ -2,9 +2,9 @@
 
 function authenticateUser($email, $password) {
      //DB login
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -18,9 +18,9 @@ function authenticateUser($email, $password) {
 
 function getLatchId($email) {
      //DB login
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -40,9 +40,9 @@ function getLatchId($email) {
 function getAdminLacthId() {
      //DB login
      $admin="admin@admin.com";
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -62,9 +62,9 @@ function getAdminLacthId() {
 
 function authenticateAdmin($email, $password) {
      //DB login
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -79,9 +79,9 @@ function authenticateAdmin($email, $password) {
 
 function getLatchIdAdmin($email) {
      //DB login
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -101,9 +101,9 @@ function getLatchIdAdmin($email) {
 
 function isGoogleEnabledForAdmin($email) {
      //DB login
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -121,9 +121,9 @@ function isGoogleEnabledForAdmin($email) {
 
 function comprobarCambiarGoogle($email) {
 //DB login
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
@@ -160,9 +160,9 @@ function comprobarCambiarGoogle($email) {
 }
 
 function takeGoogleAdminSecret($email) {
-     $dsn='mysql:dbname=TFG;host=127.0.0.1';
-     $DBuser='root';
-     $DBpassword='root';
+     $dsn='mysql:dbname=db;host=127.0.0.1';
+     $DBuser='';
+     $DBpassword='';
      try {
            $dbh=new PDO($dsn,$DBuser,$DBpassword);
      } catch (PDOException $e) {
