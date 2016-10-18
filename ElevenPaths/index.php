@@ -230,7 +230,7 @@ function checkLoginState() {
 //INICIO ASINCRONO DE LA APLICACION
 window.fbAsyncInit = function() {
   FB.init({
-    appId      : '529016693937946',
+    appId      : '',
     cookie     :  false,  // enable cookies to allow the server to access 
                         // the session
     xfbml      : true,  // parse social plugins on this page
